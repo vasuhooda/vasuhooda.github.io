@@ -10250,8 +10250,13 @@ body {
 }
 
 #cv {
-  margin-top: 20em;
-  margin-bottom: 20em;
+  margin-top: 10em;
+  margin-bottom: 10em;
+}
+@media (max-width: 991.98px) {
+  #cv embed {
+    display: none;
+  }
 }
 
 .about-section {
