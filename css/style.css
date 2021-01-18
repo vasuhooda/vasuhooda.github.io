@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Grayscale v6.0.3 (https://startbootstrap.com/theme/grayscale)
-* Copyright 2013-2020 Start Bootstrap
+* Copyright 2013-2021 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-grayscale/blob/master/LICENSE)
 */
 /*!
@@ -10214,9 +10214,11 @@ body {
   background-size: cover;
 }
 .masthead h1 {
+  font-variant: small-caps;
+  font-weight: bold;
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 2.5rem;
-  line-height: 2.5rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
   letter-spacing: 0.8rem;
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.5));
   -webkit-text-fill-color: transparent;
@@ -10239,8 +10241,8 @@ body {
     padding: 0;
   }
   .masthead h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
+    font-size: 5.5rem;
+    line-height: 5.5rem;
     letter-spacing: 0.8rem;
   }
   .masthead h2 {
@@ -10249,9 +10251,17 @@ body {
   }
 }
 
+.bg-black {
+  background-color: black;
+}
+
+.height-4 {
+  height: 4rem;
+}
+
 #cv {
-  margin-top: 10em;
-  margin-bottom: 10em;
+  padding-top: 10em;
+  padding-bottom: 10em;
 }
 @media (max-width: 991.98px) {
   #cv embed {
@@ -10268,7 +10278,6 @@ body {
 @media (min-width: 992px) {
   .about-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
   }
 }
 .about-section svg {
