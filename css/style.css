@@ -10261,6 +10261,12 @@ body {
 .height-4 {
   height: 4rem;
 }
+.height-3 {
+  height: 3rem;
+}
+.height-2 {
+  height: 2.3rem;
+}
 
 #cv {
   padding-top: 10em;
